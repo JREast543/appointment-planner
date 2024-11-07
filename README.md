@@ -24,5 +24,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Project
 
-This project uses functional React Components to create an app that will mange contracts and appointments on seperate pages. One page is to view and add new contracts to a list while not allowing
-duplication. One the appoinments page it is the same except adding a time and date to be added, while allowing it to grap the contract list, and has a set regrex for the phone number to follow. 
+This project uses functional React Components to create an app.
+This app creates two pages called contracts and appointments, that has a form to fill out. Once the form is filled and entered it should then appear under contracts or appointments depending on the page filled,
+when entered the form should clear and you can add another etc.
+
+# To start
+
+To run this you need a code editor (etc. Visual Code) and in the terminal run npm install and npm start.
+This opens a http://localHost:3000 where it is displayed. 
