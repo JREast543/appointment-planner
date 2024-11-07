@@ -31,7 +31,7 @@ export const ContactForm = ({
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
         required
-        pattern="^(?:\+44|0)(?:\d{9}|\d{10}|\d{11}|\d{12})$"
+        pattern="^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"
         placeholder="Contact Phone (###-###-####)"    
         aria-label="Contact Phone"
       />

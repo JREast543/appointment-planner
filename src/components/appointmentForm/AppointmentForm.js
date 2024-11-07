@@ -1,5 +1,6 @@
 import React, { useMemo } from "react";
-import { ContactPicker } from '../ContactPicker/ContactPicker';
+
+import { ContactPicker } from '../../components/contactPicker/ContactPicker';
 
 const getTodayString = () => {
   const [month, day, year] = new Date()
@@ -10,7 +11,7 @@ const getTodayString = () => {
 
 export const AppointmentForm = ({
   contacts,
-  title,
+  name,
   setTitle,
   contact,
   setContact,
